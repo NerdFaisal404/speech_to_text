@@ -109,8 +109,6 @@ class SpeechToText {
   /// This allows the done status to be sent from the plugin to clients
   /// even without a final speech result.
   static const String _doneNoResultStatus = 'doneNoResult';
-  static const _defaultFinalTimeout = Duration(milliseconds: 5000);
-  static const _minFinalTimeout = Duration(milliseconds: 5000);
 
   /// on Android SDK 29 the recognizer stop method did not work properly so the
   /// plugin destroys the recognizer instead. If this causes problems
