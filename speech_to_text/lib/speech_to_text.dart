@@ -80,8 +80,8 @@ class SpeechToText {
   static const String soundLevelChangeMethod = 'soundLevelChange';
   static const String notListeningStatus = 'notListening';
   static const String listeningStatus = 'listening';
-  static const _defaultFinalTimeout = Duration(milliseconds: 2000);
-  static const _minFinalTimeout = Duration(milliseconds: 50);
+  static const _defaultFinalTimeout = Duration(milliseconds: 5000);
+  static const _minFinalTimeout = Duration(milliseconds: 5000);
 
   static final SpeechConfigOption androidAlwaysUseStop =
       SpeechConfigOption('android', 'alwaysUseStop', true);
